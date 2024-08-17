@@ -10,3 +10,6 @@ Make sure you have pip installed
 # Install packages 
 After creating a venv install below packages
 > pip install panda kiteconnect pyotp selenium chromedriver-binary
+
+# Update secrets.yaml
+update [secrets.yaml](https://github.com/arupKumarGupta/Convolexa/blob/main/trade/kite/secret.yaml) as per account details
