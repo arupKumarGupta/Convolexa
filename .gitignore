@@ -1,3 +1,4 @@
 trading
 __pycache__
 secret.yaml
+instruments.json

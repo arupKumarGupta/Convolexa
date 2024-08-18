@@ -16,3 +16,18 @@ class AccessTokenResponse():
         self.login_time: str = response['login_time']
         self.order_types: list = response['order_types']
         self.products: list = response['products']
+
+class Instruments():
+    def __init__(self) -> None:
+        self.instrument_token: str= None,
+        self.exchange_token: str= None,
+        self.tradingsymbol: str= None,
+        self.name: str= None,
+        self.last_price: float= 0.0,
+        self.expiry: str= None,
+        self.strike: float= 0.0,
+        self.tick_size: float= 0.0,
+        self.lot_size: int= 0,
+        self.instrument_type: str= None,
+        self.segment: str= None,
+        self.exchange: str= None
